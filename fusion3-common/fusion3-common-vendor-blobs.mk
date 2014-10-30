@@ -45,10 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.flist:system/etc/firmware/dxhdcp2.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/fusion3-common/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/fusion3-common/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/fusion3-common/proprietary/etc/firmware/mdm_acdb.img:system/etc/firmware/mdm_acdb.img \
     vendor/sony/fusion3-common/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
@@ -65,11 +68,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -83,10 +88,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.flist:system/etc/firmware/wcnss.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/fusion3-common/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/sony/fusion3-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
