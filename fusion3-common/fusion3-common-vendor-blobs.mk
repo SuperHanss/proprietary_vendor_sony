@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.flist:system/etc/firmware/dxhdcp2.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/fusion3-common/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
@@ -60,11 +61,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -78,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.flist:system/etc/firmware/wcnss.flist \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
@@ -103,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/fusion3-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/fusion3-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/sony/fusion3-common/proprietary/lib/libdsnetutils.so:system/lib/libdsnetutils.so \
     vendor/sony/fusion3-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/fusion3-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/fusion3-common/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
@@ -145,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/fusion3-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/fusion3-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/sony/fusion3-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/sony/fusion3-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/fusion3-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -214,9 +218,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.flist:system/vendor/firmware/keymaster/keymaster.flist \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/sony/fusion3-common/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
+    vendor/sony/fusion3-common/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
