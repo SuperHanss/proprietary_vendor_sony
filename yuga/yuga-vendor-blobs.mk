@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b03:system/etc/firmware/dsps.b03 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
+    vendor/sony/yuga/proprietary/etc/firmware/dsps.flist:system/etc/firmware/dsps.flist \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
     vendor/sony/yuga/proprietary/etc/firmware/touch_module_id_0x36.img:system/etc/firmware/touch_module_id_0x36.img \
     vendor/sony/yuga/proprietary/etc/firmware/touch_module_id_0x37.img:system/etc/firmware/touch_module_id_0x37.img \
