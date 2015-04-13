@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/fusion3-common/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
     vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/fusion3-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/fusion3-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/fusion3-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/fusion3-common/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
