@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/ks:system/bin/ks \
     vendor/sony/fusion3-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/fusion3-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/sony/fusion3-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/sony/fusion3-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/fusion3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/fusion3-common/proprietary/bin/ta2bin:system/bin/ta2bin \
