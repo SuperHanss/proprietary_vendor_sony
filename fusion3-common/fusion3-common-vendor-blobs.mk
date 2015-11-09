@@ -32,11 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/fusion3-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/fusion3-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/fusion3-common/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
@@ -173,6 +168,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
+    vendor/sony/fusion3-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/sony/fusion3-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/fusion3-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -183,8 +180,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
@@ -201,7 +201,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/sony/fusion3-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
